@@ -58,9 +58,20 @@ body {
   color: var(--txt-main);
   line-height: 1;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 /* Elements' common styles */
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
