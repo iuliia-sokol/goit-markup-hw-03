@@ -200,12 +200,14 @@ ul {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
   color: var(--white);
 }
 .hero-btn {
   min-width: 216px;
   min-height: 50px;
   border: none;
+  padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -213,7 +215,6 @@ ul {
   color: var(--white);
   background-color: var(--accent-blue);
   margin-top: 30px;
-  margin-bottom: 12px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -266,7 +267,6 @@ ul {
   color: var(--txt-paragraph-grey);
 }
 .portfolio-filter-btn {
-  font-family: inherit;
   border: none;
   padding: 6px 22px;
   margin-left: 8px;
@@ -274,7 +274,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .portfolio-filter-btn:hover,
