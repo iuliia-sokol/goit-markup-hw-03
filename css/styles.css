@@ -96,6 +96,9 @@ body {
 .links-selection:focus {
   color: var(--accent-blue);
 }
+.image-display {
+  display: block;
+}
 
 /* Logo styles */
 .header-logo-text {
