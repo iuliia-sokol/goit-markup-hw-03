@@ -44,16 +44,15 @@ background-btn-active: #2196F3
   --color-gallery-item-border: #eeeeee;
   --bg-btn-active: #188ce8;
 }
-html {
+/* html {
   box-sizing: border-box;
 }
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
+} */
 body {
-  margin: 0;
   font-family: "Roboto", sans-serif;
   color: var(--txt-main);
   line-height: 1;
@@ -158,7 +157,6 @@ ul {
   background-color: var(--bg-footer);
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
 }
 .footer-content-list {
   font-style: normal;
@@ -178,18 +176,17 @@ ul {
 /* Main content*/
 
 /* Hero */
-.hero {
-  /* temporary */
+.hero-section {
   background-color: var(--bg-footer);
   display: flex;
   justify-content: center;
   padding-top: 200px;
   padding-bottom: 280px;
 }
-.hero-content-wrapper {
+/* .hero-content-wrapper {
   width: 696px;
   text-align: center;
-}
+} */
 .hero-header {
   font-weight: 900;
   font-size: 44px;
