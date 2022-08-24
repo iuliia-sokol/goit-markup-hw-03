@@ -269,6 +269,9 @@ ul {
   letter-spacing: 0.03em;
   color: var(--txt-paragraph-grey);
 }
+.filter-btn-wrapper {
+  padding-bottom: 34px;
+}
 .portfolio-filter-btn {
   border: none;
   padding: 6px 22px;
@@ -278,6 +281,7 @@ ul {
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 .portfolio-filter-btn:hover,
 .portfolio-filter-btn:focus {
