@@ -185,36 +185,35 @@ ul {
 /* Hero */
 .hero-section {
   background-color: var(--bg-footer);
-  display: flex;
-  justify-content: center;
   padding-top: 200px;
-  padding-bottom: 280px;
-}
-/* .hero-content-wrapper {
-  width: 696px;
+  padding-bottom: 188px;
   text-align: center;
-} */
+}
+.hero-container {
+  width: 696px;
+  margin: 0 auto;
+}
 .hero-header {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-align: center;
   color: var(--white);
+  margin-bottom: 30px;
 }
 .hero-btn {
   min-width: 216px;
   min-height: 50px;
   border: none;
   padding: 10px 32px;
+  margin-bottom: 12px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--white);
   background-color: var(--accent-blue);
-  margin-top: 30px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
