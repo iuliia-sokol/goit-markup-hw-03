@@ -79,12 +79,12 @@ ul {
   padding-bottom: 94px;
 }
 .section-header {
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
 }
 .content-list-general {
   list-style: none;
@@ -177,9 +177,9 @@ ul {
 }
 /* Footer */
 .footer {
-  background-color: var(--bg-footer);
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--bg-footer);
 }
 .footer-content-list {
   font-style: normal;
@@ -200,9 +200,9 @@ ul {
 
 /* Hero */
 .hero-section {
-  background-color: var(--bg-footer);
   padding-top: 200px;
   padding-bottom: 188px;
+  background-color: var(--bg-footer);
   text-align: center;
 }
 .hero-container {
@@ -210,13 +210,13 @@ ul {
   margin: 0 auto;
 }
 .hero-header {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white);
-  margin-bottom: 30px;
 }
 .hero-btn {
   min-width: 216px;
@@ -224,12 +224,12 @@ ul {
   border: none;
   padding: 10px 32px;
   margin-bottom: 12px;
+  background-color: var(--accent-blue);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--white);
-  background-color: var(--accent-blue);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -238,11 +238,11 @@ ul {
 }
 /* Priorities */
 .priorities-list-item > h3 {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 .priorities-list-item p {
   font-size: 14px;
@@ -259,10 +259,10 @@ ul {
   background-color: var(--light-grey);
 }
 .staff-list-item > h3 {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
-  margin-bottom: 10px;
 }
 .staff-list-item p {
   font-size: 16px;
@@ -272,11 +272,11 @@ ul {
 
 /* PORTFOLIO PAGE */
 .portfolio-list-item h2 {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-bottom: 4px;
 }
 .portfolio-list-item p {
   font-size: 16px;
@@ -288,19 +288,19 @@ ul {
   padding-bottom: 34px;
 }
 .portfolio-filter-btn {
-  border: none;
   padding: 6px 22px;
   margin-left: 8px;
   margin-right: 8px;
+  margin-bottom: 16px;
+  border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
-  margin-bottom: 16px;
 }
 .portfolio-filter-btn:hover,
 .portfolio-filter-btn:focus {
-  background: #2196f3;
+  background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-filter-btn-1 {
