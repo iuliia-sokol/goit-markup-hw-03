@@ -198,6 +198,9 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.footer-content-list > li {
+  margin-bottom: 8px;
+}
 .footer-adress-link {
   color: var(--white);
 }
@@ -212,7 +215,7 @@ ul {
 /* Hero */
 .hero-section {
   padding-top: 200px;
-  padding-bottom: 188px;
+  padding-bottom: 200px;
   background-color: var(--bg-footer);
   text-align: center;
 }
@@ -234,7 +237,6 @@ ul {
   min-height: 50px;
   border: none;
   padding: 10px 32px;
-  margin-bottom: 12px;
   background-color: var(--accent-blue);
   font-weight: 700;
   font-size: 16px;
@@ -292,21 +294,29 @@ ul {
 .staff-list {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 .staff-list-item {
   width: calc((100% - 90px) / 4);
+  background-color: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .staff-list-item + .staff-list-item {
   margin-left: 30px;
 }
 .staff-list-item > h3 {
+  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .staff-list-item p {
+  margin-bottom: 30px;
   font-size: 16px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--txt-paragraph-grey);
 }
